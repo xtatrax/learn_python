@@ -1,0 +1,2 @@
+# learn_python
+pythonの挙動確認を残しておくためのリポジトリ
