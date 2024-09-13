@@ -2,25 +2,31 @@
 C の #ifdef 的なことしたい
 """
 
-global is_def
+from . import _module_var_data_list_
+print(_module_var_data_list_.is_def)
+#global is_def
+print("1try:")
 try:
-	if is_def:
-		print("is_def = true")
+	if _module_var_data_list_.is_def:
+		print("2is_def = true")
+		print(_module_var_data_list_.is_def)
 	else :
-		print("is_def = false")
+		print("3is_def = false")
+		print(_module_var_data_list_.is_def)
 except:
-	print("is_def = ndef")
+	print("4is_def = ndef")
 
-print("ifdef")
+print("5ifdef")
 
 
 def init():
 	try:
 		if is_def:
-			print("is_def = true")
+			print("6is_def = true")
 			print(is_def)
 		else :
-			print("is_def = false")
+			print("7is_def = false")
 			print(is_def)
 	except:
-		print("is_def = ndef")
+		print("8is_def = ndef")
+

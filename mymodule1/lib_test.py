@@ -1,6 +1,8 @@
 
 import os
+import shutil
 from . import ifdef
+
 
 lib_test_data="lib_test"
 def lib_test():

@@ -1,7 +1,10 @@
 
 
-global is_def
-is_def = True
+#global is_def
+#is_def = True
+from mymodule1 import _module_var_data_list_
+print(_module_var_data_list_.is_def)
+print("data_list_.is_def")
 from mymodule1 import ifdef
 import mymodule1.lib_test
 
