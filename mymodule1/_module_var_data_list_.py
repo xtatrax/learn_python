@@ -2,4 +2,4 @@
 
 global is_def
 
-is_def = True
+is_def = False
